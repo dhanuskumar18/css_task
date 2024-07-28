@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin-block: 3rem;
+    /* text-align: center; */
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    width: 22%;
+    height: 100%;
+    outline: 2px dashed red;
+    outline-offset: 1rem;
+    margin-inline-start: 39%;
+    /* background-image: url("https://assets.giftalove.com/resources/common/giftimages/productimage2/cute-panda-chocolate-cake.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 90% 250px ;
+    background-attachment: scroll; */
+}
+
+.img {
+    height: 17rem;
+    /* background-image: url("https://assets.giftalove.com/resources/common/giftimages/productimage2/cute-panda-chocolate-cake.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll; */
+    background: no-repeat scroll bottom url("https://assets.giftalove.com/resources/common/giftimages/productimage2/cute-panda-chocolate-cake.jpg");
+    background-size: cover;
+    height: 500px;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+/* @media screen only and ("min-width:768px") {
+    .img{
+        background-
+        }
+    
+} */
+/* @media screen and (min-width:768px) {
+    .img{
+        background-position: top left;
+    }
+ } */
+
+.container:hover {
+    box-shadow: 0px 0px 16px red;
+}
+
+.container {
+    transition: 0.4s all ease-in-out;
+}
+
+.content {
+    border: 1px solid lightgray;
+    padding: 2rem;
+    margin: 1rem;
+    margin-block-start: 1.5rem;
+}
+
+p {
+    margin: 0.5rem 0.2rem;
+    font-size: large;
+}
+
+h2 {
+    margin: 2rem 0.2rem 0.4rem;
+}
+
+ul {
+    margin: 1rem;
+}
+
+ul>li {
+    margin: 0.5rem;
+    font-size: large;
+}
+
+h3 {
+    margin: 2rem 0.2rem 0.4rem;
+}
+
+ol>li {
+    margin: 0.5rem;
+    font-size: large;
+}
